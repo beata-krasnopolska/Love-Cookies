@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700&subset=latin-ext');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+header { background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9); 
+    height: 80px; 
+}
+.nav-logo {
+    float: left;
+    color: #e00986;
+    font-size: 25px;
+    margin: 0;
+    padding-left: 20px;
+    line-height: 80px;
+}
+nav ul {
+    float: right;
+}
+.clear {
+    clear: both;
+}
