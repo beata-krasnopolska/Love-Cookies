@@ -21,8 +21,8 @@ header {
     line-height: 80px;
 }
 nav ul {
-    float: right;
     list-style-type: none;
+    float: right;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -43,20 +43,21 @@ nav ul li a:hover {
     color: #fff; 
     transition-duration: 2s; 
 }
-.nav ul ul {
+nav ul ul {
     background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+    display: none;
     text-align: left;
     width: 100%;
     border: 1px solid #e00986;
-    display: none;
+    
 }
-.nav ul ul li {
+nav ul ul li {
     display: block;
 }
-.nav ul ul li a {
+nav ul ul li a {
     padding: 0 15px;
 }
-.nav ul li:hover > ul {
+nav ul li:hover > ul {
     display: block;
     position: absolute;
     z-index: 1;
@@ -201,8 +202,56 @@ h2 {
 .icon span {
     font-size: 18px;
 }
+.contact-section{
+    max-width: 600px;
+    margin: 40px auto;
+    border: 2px solid #7ac5ff;
+    -webkit-box-shadow: 4px 4px 24px 2px #54d1ed;
+    -moz-box-shadow: 4px 4px 24px 1px #54d1ed;
+    box-shadow: 4px 4px 24px 1px #54d1ed;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+input {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #7ac5ff;
+    -webkit-box-shadow: 4px 4px 24px 2px #54d1ed;
+    -moz-box-shadow: 4px 4px 24px 1px #54d1ed;
+    box-shadow: 4px 4px 24px 1px #54d1ed;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    display: block;
+    border: 2px solid #7ac5ff;
+    -webkit-box-shadow: 4px 4px 24px 2px #54d1ed;
+    -moz-box-shadow: 4px 4px 24px 1px #54d1ed;
+    box-shadow: 4px 4px 24px 1px #54d1ed;
+    margin: 0 auto;
+}
+input[type="submit"], [type="reset"] {
+    cursor: pointer;
+    max-width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background: #f29cd9;
+    display: block;
+    margin: 30px auto;
+}
 footer {
     background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
     text-align: center;
     font-size: 10px;
+    margin: 0;
+    padding: 5px;
 }
