@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="../vendor/wickedcss.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/> <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -30,6 +31,15 @@
             <div class="slogan">
                 <h2>First, <span>think</span>. Second, <span>belive</span>. Third, <span>dream</span>.</h2>
                 <h2>And finally, <span class="yellow-text">dare!</span></h2>
+            </div>
+        </section>
+        <section class="slider-section">
+            <div class="slick-slider">
+                <img src="https://images.unsplash.com/photo-1474625342403-1b8a2c0f7215?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=11d5188f229575b2df362585ec764663&auto=format&fit=crop&w=751&q=80" alt="muffins" tittle="ciasteczka">
+                <img src="https://images.unsplash.com/photo-1506224477000-07aa8a76be20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6851cb7aab1be425187521d02afdb25a&auto=format&fit=crop&w=750&q=80" alt="doughnuts" tittle="pączki">
+                <img src="https://images.unsplash.com/photo-1477040648049-a289a91626c1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0995f0eee87e22a4c1e8ecc036447cb0&auto=format&fit=crop&w=750&q=80" alt="muffins" tittle="ciasteczka">
+                <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54b672f6b83c7e9ccf289a0730e6f75&auto=format&fit=crop&w=334&q=80" alt="muffins" tittle="ciasteczka">
+                <img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?ixlib=rb-0.3.5&s=9294d23d96ad1d49c1404b0970bd2f63&auto=format&fit=crop&w=401&q=80" alt="chocolates" tittle="czekoladki">
             </div>
         </section>
         <section>
@@ -90,5 +100,10 @@
             <p>photos from: www.unsplash.com</p>
             <p>All rights reserved</p>
         </footer>
+         <!-- tutaj musimy dodać skrypty js, które sprawią że nasz slider będzie działał. Pierwszy link dotyczy biblioteki jQuery, drugi to js slick-slidera -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <!-- nasz skrypt musi być na końcu -->
+    <script src="js/script.js"></script>
     </body>
 </html>
