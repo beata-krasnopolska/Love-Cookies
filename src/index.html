@@ -16,13 +16,14 @@
                 <h1 class="nav-logo">Love &#9825 Cookies</h1>
                 <ul>
                     <li><a href="#">Strona główna</a></li>
-                    <li><a href="#">Ciastka</a></li>
+                    <li><a href="#">Ciastka</a>
                         <ul>
                             <li><a href="#">Torty</a></li>
                             <li><a href="#">Babeczki</a></li>
                             <li><a href="#">Bezy</a></li>
                             <li><a href="#">Ciastka</a></li>
                         </ul>
+                    </li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
@@ -90,19 +91,19 @@
         </section>
         <section class="contact-section container">
             <form action="php/form.php" method="POST">
-                <label for="name">Imię</label>
-                <input type="text" name="name" id="name" placeholder="Podaj imię" required/>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Add name" required/>
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Podaj adres e-mail" required/>
-                <label for="message">Wiadomość</label>
-                <textarea name="message" id="message" rows="3" placeholder="W czym możemy pomóc?:)" required/></textarea>
-                <input type="submit" name="submit" value="Wyślij">
-                <input type="reset" name="submit" value="Usuń dane">
+                <input type="email" name="email" id="email" placeholder="Add e-mail address" required/>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3" placeholder="What can we help you?:)" required/></textarea>
+                <input type="submit" name="submit" value="Send">
+                <input type="reset" name="submit" value="Rmove data">
             </form>
 
         </section>
         <footer>
-            <p>photos from: www.unsplash.com https://www.shareicon.net</p>
+            <p>photos from: <a href="https://www.unsplash.com" target="_blank">unsplash.com</a> <a href="https://www.shareicon.net" target="_blank">shareicon.net</a></p>
             <p>All rights reserved</p>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
