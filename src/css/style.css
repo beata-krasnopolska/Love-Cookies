@@ -308,3 +308,87 @@ footer a {
     text-decoration: none;
     color: #333;
 }
+
+/* CONTACT SUBPAGE */
+.address {
+    /* padding: 100px 0; */
+}
+.hours {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.address h1 {
+    margin: 0;
+    width: 100%;
+} 
+.hours ul{
+    list-style: none;
+    margin: 0 10px;
+}
+.hours ul li {
+    border-bottom: .5px solid #54d1ed;
+    padding: 9px 0;
+}
+.hours ul li:last-child{
+    border-bottom: none;
+}
+.hours ul li a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.hours ul li i {
+    text-decoration: none;
+    color: #e00986;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.map {
+    width: 50%;   
+}
+.map p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.map p a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.map img {
+    width: 120%;
+    border-radius: 5px;
+    border: 3px solid #54d1ed;
+}
+@media (max-width: 767px){ 
+    header { 
+        height: 350px; 
+    } 
+    .nav-logo { 
+        width: 100%;
+        float: none; 
+        padding: 0; 
+        text-align: center; 
+    } 
+    nav ul { 
+        float: none; 
+        background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9); 
+    } 
+    nav ul li { 
+        display: block; 
+        text-align: center; 
+    } 
+    nav ul li:hover > ul { 
+        display: none; 
+    } 
+    .movie-section { 
+        display: none; 
+    } 
+    .contact-section { 
+        display: none; 
+    }
+}
